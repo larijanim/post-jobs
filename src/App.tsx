@@ -78,7 +78,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1 className="title">Hacker News Jobs Board</h1>
+      <h1 className="title">Jobs List</h1>
       {jobIds == null ? (
         <p className="loading">Loading...</p>
       ) : (
